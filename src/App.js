@@ -32,8 +32,8 @@ function App() {
           handleBlur,
           handleSubmit,
         }) => (
-          <div class="login">
-            <div class="form">
+          <div className="login">
+            <div className="form">
               {/* Passing handleSubmit parameter tohtml form onSubmit property */}
               <form noValidate onSubmit={handleSubmit}>
                 <span>Login</span>
